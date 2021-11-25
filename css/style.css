@@ -1,0 +1,287 @@
+body {
+    margin: 0 66px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+
+h1{
+    font-size: 28px;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    margin-top: 15px;
+    margin-bottom: 3px;
+    margin-left: 15px;
+}
+
+
+/*
+.box-headers {
+    padding: 0 53px;
+}
+*/
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 66px;
+}
+
+#logo {
+    padding-top: 41px;
+}
+
+nav {
+    padding-top: 66px;
+}
+
+nav a {
+    margin: 40px;
+    color: #000000;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #0065FC;
+}
+
+#searchbar {
+    border: 1px solid #F2F2F2;
+    border-radius: 24px;
+    overflow: hidden;
+    width: fit-content;
+    display:flex;
+    vertical-align: middle;
+}
+
+#searchlogo {
+    background-color: #F2F2F2;
+    width: 64px;
+    height: 64px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#searchlogo i {
+    margin:auto;
+}
+
+#searchbar input {
+    border: none;
+    width: 312px;
+    padding-left: 24px;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+#searchbar button {
+    border: none;
+    text-align: center;
+    background-color: #0065FC;
+    font-size: 24px;
+    padding: 0 24px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#filterlist {
+    margin: 40px 0;
+    display:flex;
+    align-items: center;
+}
+
+#filterlist h2 {
+    display: inline-block;
+    margin-right:24px;
+}
+
+.filters {
+    overflow: visible;
+    height:60px;
+    border: 3px solid #F2F2F2;
+    border-radius: 33px;
+    margin: 0 16px;
+    display: inline-block;
+    padding: 0px;
+    cursor: pointer;
+    display: flex;
+}
+
+.filters:hover {
+    overflow: hidden;
+    border-color: #0065FC;
+    background-color: #F2F2F2;
+}
+
+.filtericons {
+    background-color: #DEEBFF;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    min-width: 66px;
+    width: 66px;
+    height: 66px;
+    border-radius: 33px;
+    overflow: hidden;
+    position: relative;
+    left: -3px;
+    top: -3px;
+}
+
+.filters i {
+    margin: auto;
+    color: #0065FC;
+    border-radius: 33px;
+}
+
+.filterlabels {
+    height: fit-content;
+    margin-top: 16px;
+    margin-left: 16px;
+    font-size: 24px;
+    font-weight: 700;
+    padding-right: 20px;
+}
+
+#info-icon {
+    border: 2px solid #F2F2F2;
+    border-radius: 19px;
+    display:inline-block;
+    padding: 6px 14px;
+    color: #0065FC;
+    margin-right: 20px;
+}
+
+.cards {
+    box-shadow: 2px 2px 15px #DCDCDC;
+}
+
+#hebergement {
+    display: flex;
+
+    margin-top: 46px;
+    
+
+}
+
+.ratings-full {
+    color: #0065FC;
+    font-size: 16px;
+}
+
+.ratings-empty {
+    color: #F2F2F2;
+    font-size: 16px;
+}
+
+#lodging-list {
+    flex:1;
+    background-color: #F2F2F2;
+    margin-right: 56px;
+    border-radius: 22px;
+    
+}
+
+#lodging-cards {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#lodging-cards p {
+    margin: 5px 15px;
+}
+
+#lodging-cards a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.lodging-card {
+    display: block;
+    width: 315px;
+    margin: 20px;
+    border: 6px solid #ffffff;
+    border-radius: 25px;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+.lodging-card:hover {
+    border-color: #0065FC;
+    background-color: #DEEBFF;
+}
+
+.lodging-card_picture-viewer {
+    display: flex;
+    width: 315px;
+    height: 152px;
+    overflow: hidden;
+    align-items: center;
+}
+
+.lodging-card_picture{
+    background-color: #ffffff;
+    width: 100%;
+    vertical-align: middle;
+}
+
+#top-lodgings {
+    width: 560px;
+    background-color: #F2F2F2;
+    border-radius: 22px;
+    
+}
+
+#top-lodgings_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 458px;
+    margin: auto;
+}
+
+#top-lodging-cards {
+    margin: 5px 15px;
+    height: 180px;
+    
+}
+
+.top-lodging-card {
+    display: block;
+    border: 6px solid #ffffff;
+    background-color: #ffffff;
+    border-radius: 25px;
+    overflow: hidden;
+    margin: 20px auto;
+    width: 446px;
+}
+
+.top-lodging-card:hover {
+    border-color: #0065FC;
+    background-color: #DEEBFF;
+}
+
+#top-lodging-cards a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.top-lodging-card_picture-viewer {
+    display: flex;
+    
+}
+
+.top-lodging-card_picture {
+    width: 170px;
+    height: 180px;
+    object-fit: cover;
+}
+
