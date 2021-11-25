@@ -237,13 +237,14 @@ nav a:hover {
 #top-lodgings_header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 458px;
     margin: auto;
 }
 
 #top-lodging-cards {
     margin: 5px 15px;
-    height: 180px;
+    
 }
 
 .top-lodging-card {
