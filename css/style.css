@@ -165,10 +165,7 @@ nav a:hover {
 
 #hebergement {
     display: flex;
-
     margin-top: 46px;
-    
-
 }
 
 .ratings-full {
@@ -186,7 +183,6 @@ nav a:hover {
     background-color: #F2F2F2;
     margin-right: 56px;
     border-radius: 22px;
-    
 }
 
 #lodging-cards {
@@ -223,7 +219,6 @@ nav a:hover {
     display: flex;
     width: 315px;
     height: 152px;
-    overflow: hidden;
     align-items: center;
 }
 
@@ -237,13 +232,11 @@ nav a:hover {
     width: 560px;
     background-color: #F2F2F2;
     border-radius: 22px;
-    
 }
 
 #top-lodgings_header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     width: 458px;
     margin: auto;
 }
@@ -251,7 +244,6 @@ nav a:hover {
 #top-lodging-cards {
     margin: 5px 15px;
     height: 180px;
-    
 }
 
 .top-lodging-card {
@@ -274,10 +266,10 @@ nav a:hover {
     text-decoration: none;
 }
 
+/*
 .top-lodging-card_picture-viewer {
     display: flex;
-    
-}
+}*/
 
 .top-lodging-card_picture {
     width: 170px;
